@@ -15,3 +15,4 @@ for i in range(5):
 print("wylosowane litery to:",wylosowane_litery)
 
 print("Jestes super")
+print("Teraz już wszystko działa")
