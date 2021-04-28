@@ -1,0 +1,15 @@
+import random
+
+litery="abcdefghijklmnoprstuwxyz"
+wylosowane_litery=""
+for i in range(5):
+    wylosowana=random.choice(litery)
+    wylosowane_litery+=wylosowana
+print("Podaj literę")
+for i in range(5):
+    liczba_uzytkownika=input()
+    if liczba_uzytkownika in wylosowane_litery:
+        print("zgadłeś". )
+    else:
+        print("nie zgadłeś")
+print("wylosowane litery to:",wylosowane_litery)
